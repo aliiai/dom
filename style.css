@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .dark{
+    background-color: black;
+} */
+ /* body{
+    width: 100%;
+ } */
+.side{
+    width: 20%;
+    height: 100vh;
+    background-color: aqua;
+    transition: all ease-in 200ms;
+}
+
+
+.close{
+  width: 5%;
+    height: 100vh;
+    background-color: aqua;
+    transition: all ease-in 200ms;
+}
