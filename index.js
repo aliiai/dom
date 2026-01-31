@@ -126,3 +126,4 @@ let scrollUp = document.getElementById('scrollUp')
 // `
 // btn.style.removeProperty('padding')
 // body.appendChild(btn)
+// body.appendChild(btn)
