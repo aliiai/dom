@@ -33,18 +33,96 @@
 // image.src = "qw.png"
 // console.log(image.hasAttribute('src'));
 
-let side = document.getElementsByClassName('side')[0]
+// let side = document.getElementsByClassName('side')[0]
 
-console.log(side.classList.contains('side'));
+// console.log(side.classList.contains('side'));
 
 
 
-function clo() {
-if (side.classList.contains('side')) {
-    side.classList.add('close')
-    side.classList.remove('side')
-} else if(side.classList.contains('close')) {
-       side.classList.add('side')
-    side.classList.remove('close')
-}
-}
+// function clo() {
+// if (side.classList.contains('side')) {
+//     side.classList.add('close')
+//     side.classList.remove('side')
+// } else if(side.classList.contains('close')) {
+//        side.classList.add('side')
+//     side.classList.remove('close')
+// }
+// }
+
+
+
+// let menuBtn = document.getElementById('menu')
+// let side = document.getElementById('side')
+// let body = document.body
+let scrollUp = document.getElementById('scrollUp')
+
+// window.onscroll = function () {
+// if (window.scrollY > 200) {
+//   scrollUp.style.display = 'block'
+// }else {
+//     scrollUp.style.display = 'none'
+// }
+// }
+
+
+
+// scrollUp.addEventListener('click',function () {
+// window.scrollTo({
+//   top:0,
+//   behavior:'smooth'
+// })  
+// })
+
+
+
+
+
+// menuBtn.onclick = function () {
+//   console.log("b");
+// }
+
+
+
+// menuBtn.addEventListener('click' , function name(params) {
+//   console.log('r');
+  
+// }
+// )
+// console.log(body);
+
+// body.addEventListener('scroll' , function () {
+//   console.log('d');
+  
+// }
+// )
+
+// scrollUp.style.display = 'none'
+// scrollUp.style.cssText = `
+//   position: fixed;
+//   bottom: 20px;
+//   right: 20px;
+//   border: none;
+//   border-radius: 50%;
+//   padding: 15px;
+// `
+
+
+
+// let btn = document.createElement('button')
+// let body = document.body
+
+
+// btn.textContent = 'add'
+// console.log(btn);
+// // btn.style.display = 'none'
+
+// btn.style.cssText = `
+//   position: fixed;
+//   bottom: 20px;
+//   right: 20px;
+//   border: none;
+//   border-radius: 50%;
+//   padding: 15px;
+// `
+// btn.style.removeProperty('padding')
+// body.appendChild(btn)
