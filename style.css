@@ -10,7 +10,7 @@
  /* body{
     width: 100%;
  } */
-.side{
+/* .side{
     width: 20%;
     height: 200vh;
     background-color: aqua;
@@ -27,4 +27,20 @@
 
 #scrollUp{
 background-color: brown;
+} */
+
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.219);
+  display: none;
+}
+
+.popup{
+  width: 50%;
+  height: 50%;
+  background-color: white;
 }
